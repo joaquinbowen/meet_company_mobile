@@ -43,5 +43,12 @@
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "lint": "expo lint"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "unrs-resolver"
+    ]
+  },
   "private": true
 }
+

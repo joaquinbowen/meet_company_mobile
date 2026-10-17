@@ -29,6 +29,7 @@
   "devDependencies": {
     "@types/node": "^26.6.5",
     "@types/react": "~19.2.2",
+    "eas-cli": "^25.1.1",
     "eslint": "^9.39.5",
     "eslint-config-expo": "~57.0.2",
     "tailwindcss": "^3.4.17",
@@ -43,12 +44,5 @@
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "lint": "expo lint"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "unrs-resolver"
-    ]
-  },
   "private": true
 }
-
